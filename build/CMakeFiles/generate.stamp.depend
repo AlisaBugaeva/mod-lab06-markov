@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/share/cmake-3.23/Modules/CMakeCInformation.cmake
+D:/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+D:/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+D:/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+D:/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+D:/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+D:/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+D:/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+D:/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+D:/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake
+D:/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+D:/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake
+D:/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
+D:/share/cmake-3.23/Modules/Platform/Windows.cmake
+D:/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+D:/uni/mod-lab06-markov/CMakeLists.txt
+D:/uni/mod-lab06-markov/build/CMakeFiles/3.23.1/CMakeCCompiler.cmake
+D:/uni/mod-lab06-markov/build/CMakeFiles/3.23.1/CMakeCXXCompiler.cmake
+D:/uni/mod-lab06-markov/build/CMakeFiles/3.23.1/CMakeRCCompiler.cmake
+D:/uni/mod-lab06-markov/build/CMakeFiles/3.23.1/CMakeSystem.cmake

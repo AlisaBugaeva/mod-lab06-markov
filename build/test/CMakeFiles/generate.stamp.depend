@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/share/cmake-3.23/Modules/FetchContent.cmake
+D:/share/cmake-3.23/Modules/FetchContent/CMakeLists.cmake.in
+D:/uni/mod-lab06-markov/test/CMakeLists.txt

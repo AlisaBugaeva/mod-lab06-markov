@@ -1,0 +1,3 @@
+D:/uni/mod-lab06-markov/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+D:/uni/mod-lab06-markov/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/uni/mod-lab06-markov/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

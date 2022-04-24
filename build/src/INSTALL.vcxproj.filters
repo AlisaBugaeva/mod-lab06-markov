@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\uni\mod-lab06-markov\build\CMakeFiles\5c980e81089e3bb8a66ed10d6fb15df0\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8C487C78-C843-37F4-81DC-09B08F005B49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
