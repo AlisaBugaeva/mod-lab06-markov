@@ -39,7 +39,7 @@ void MarkovTextGenerator::generateNewText(){
 			countWords++;
 		}
 		else
-			break;
+		 break;
 	}
 
 	
