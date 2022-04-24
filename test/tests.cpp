@@ -77,7 +77,7 @@ TEST(test5, lengthText) {
   g.statetab[g.next].push_back("cats");
   g.next.pop_front();
   g.next.push_back("cats");
-  
+
   g.statetab[g.next].push_back("I");
   g.next.pop_front();
   g.next.push_back("I");
