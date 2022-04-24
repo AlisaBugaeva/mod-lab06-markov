@@ -9,19 +9,17 @@
 #include<string>
 #include<ctime>
 
-using namespace std;
-
 class MarkovTextGenerator{
-public:
- typedef deque<string> prefix; // очередь префиксов
- map<prefix, vector<string> > statetab; // префикс-суффиксы
- deque<string> start;
- deque<string> next;
- int NPREF; // количество слов в префиксе
- int MAXGEN; //объем текста на выходе
- int countWords = 0;
+ public:
+  typedef std::deque<std::string> prefix; // очередь префиксов
+  std::map<prefix, std::vector<std::string> > statetab; // префикс-суффиксы
+  std::deque<std::string> start;
+  std::deque<std::string> next;
+  int NPREF; // количество слов в префиксе
+  int MAXGEN; //объем текста на выходе
+  int countWords = 0;
 
- MarkovTextGenerator(int kolvo, int size);
- void readFromFile(string path);
- void generateNewText();
+  MarkovTextGenerator(int kolvo, int size);
+  void readFromFile(std::string path);
+  void generateNewText();
 };
