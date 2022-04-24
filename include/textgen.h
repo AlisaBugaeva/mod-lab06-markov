@@ -11,12 +11,12 @@
 
 class MarkovTextGenerator{
  public:
-  typedef std::deque<std::string> prefix; // очередь префиксов
-  std::map<prefix, std::vector<std::string> > statetab; // префикс-суффиксы
+  typedef std::deque<std::string> prefix;
+  std::map<prefix, std::vector<std::string> > statetab;
   std::deque<std::string> start;
   std::deque<std::string> next;
-  int NPREF; // количество слов в префиксе
-  int MAXGEN; //объем текста на выходе
+  int NPREF;
+  int MAXGEN;
   int countWords = 0;
 
   MarkovTextGenerator(int kolvo, int size);

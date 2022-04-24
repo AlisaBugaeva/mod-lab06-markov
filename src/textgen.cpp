@@ -6,9 +6,9 @@ MarkovTextGenerator::MarkovTextGenerator(int kolvo, int size) {
  NPREF = kolvo;
  MAXGEN = size;
 }
-void MarkovTextGenerator::readFromFile(string path) {
- ifstream in(path);
- string str;
+void MarkovTextGenerator::readFromFile(std::string path) {
+ std::ifstream in(path);
+ std::string str;
  for (int i = 0; i < NPREF; i++) {
   in >> str;
   next.push_back(str);
@@ -23,13 +23,13 @@ void MarkovTextGenerator::readFromFile(string path) {
 }
 
 void MarkovTextGenerator::generateNewText() {
- ofstream out("output.txt");
+ std::ofstream out("output.txt");
  for (int i = 0; i < NPREF; i++) {
   out << start[i] << " ";
  }
- map<prefix, vector<string> >::iterator it;
+ std::map<prefix, std::vector<std::string> >::iterator it;
  next = start;
- string suff;
+ std::string suff;
  srand(time(0));
  for (int i = 0; i < MAXGEN; i++) {
   it = statetab.find(next);

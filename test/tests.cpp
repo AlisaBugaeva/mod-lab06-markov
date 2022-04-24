@@ -13,9 +13,9 @@ TEST(test1, prefixNumber) {
 TEST(test2, prefixSuffix) {
  MarkovTextGenerator g = MarkovTextGenerator(2, 1000);
  g.readFromFile("input.txt");
- map<deque<string>, vector<string> >::iterator it;
+ std::map<std::deque<std::string>, std::vector<std::string> >::iterator it;
  it = g.statetab.find(g.start);
- string suff = it->second[0];
+ std::string suff = it->second[0];
 
  EXPECT_EQ("the", suff);
 }
@@ -24,9 +24,9 @@ TEST(test3, oneSuffix) {
  MarkovTextGenerator g = MarkovTextGenerator(2,1000);
  g.readFromFile("test3_4.txt");
 
- map<deque<string>, vector<string> >::iterator it;
+ std::map<std::deque<std::string>, std::vector<std::string> >::iterator it;
  it = g.statetab.find(g.start);
- string suff = it->second[rand() % (it->second).size()];
+ std::string suff = it->second[rand() % (it->second).size()];
 
  EXPECT_EQ("my", suff);
 }
@@ -34,9 +34,9 @@ TEST(test3, oneSuffix) {
 TEST(test4, chooseSuffix) {
  MarkovTextGenerator g = MarkovTextGenerator(1, 1000);
  g.readFromFile("test3_4.txt");
- map<deque<string>, vector<string> >::iterator it;
+ std::map<std::deque<std::string>, std::vector<std::string> >::iterator it;
  it = g.statetab.find(g.start);
- string suff = it->second[rand() % (it->second).size()];
+ std::string suff = it->second[rand() % (it->second).size()];
 
  EXPECT_TRUE(suff == "ball" || suff == "cat" || suff == "car");
 }
@@ -44,7 +44,7 @@ TEST(test4, chooseSuffix) {
 TEST(test5, lengthText) {
  MarkovTextGenerator g = MarkovTextGenerator(2, 33);
 
- string str;
+ std::string str;
 
  g.next.push_back("I");
  g.next.push_back("love");
